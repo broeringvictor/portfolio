@@ -1,0 +1,23 @@
+
+
+  <ul class="flex flex-col gap-4">
+    @for (item of contactItems; track item.text) {
+      <li>
+        <a class="group inline-flex items-center gap-4 text-base font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300" 
+           [href]="item.href" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           [attr.aria-label]="item.ariaLabel">
+          
+          <span class="flex h-10 w-10 items-center justify-center rounded-full border border-slate-700 bg-slate-800">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                 class="h-5 w-5 shrink-0" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" [attr.d]="item.icon" />
+            </svg>
+          </span>
+
+          <span>{{ item.text }}</span>
+        </a>
+      </li>
+    }
+    </ul>

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Contatos } from "../contatos/contatos";
 
 @Component({
   selector: 'app-broering',
   standalone: true, // É importante definir como standalone
-  imports: [CommonModule],
+  imports: [CommonModule, Contatos],
   templateUrl: './broering.html',
   styleUrl: './broering.css',
 
