@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests
-        run: npm test -- --no-watch --no-progress --browsers=ChromeHeadlessCI --no-sandbox
+        run: npm test -- --no-watch --no-progress --browsers=ChromeHeadless --no-sandbox
       - name: Build Angular app
         run: npm run build
       - name: Setup Pages
