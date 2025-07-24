@@ -39,7 +39,7 @@ jobs:
 
       - name: Run tests
 
-        run: npm test -- --no-watch --progress=false --browsers=ChromeHeadlessCI
+        run: npm test -- --no-watch --progress=false --browsers=ChromeHeadless
 
       - name: Build Angular app
         run: npm run build -- --base-href /portfolio/
