@@ -1,59 +1,63 @@
-# Broering
+# Victor Broering - Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+Este é o código-fonte do meu portfólio pessoal, desenvolvido com Angular e Tailwind CSS. O projeto apresenta as minhas informações profissionais, experiências, projetos e um blog integrado com a API do Hashnode.
 
-## Development server
+## ✨ Visão Geral
 
-To start a local development server, run:
+O site é SPA estática, projetada para ser rápida e resposível, possíbilitando a hospedagem no github pages.
+
+## 🚀 Tecnologias Utilizadas
+
+- **[Angular](https://angular.io/) 20:** Framework front-end.
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS.
+- **[Hashnode API](https://hashnode.com/api):** Utilizada para buscar e exibir os posts mais recentes do meu blog diretamente no portfólio.
+- **[Karma](https://karma-runner.github.io/):** É o executor de testes que abre um navegador e executa os testes de forma automatizada.
+- **[Jasmine](https://jasmine.github.io/):** É o framework de testes utilizado para testes unitários.
+- **[GitHub Actions](https://docs.github.com/en/actions):** Utilizado para automação de CI/CD, garantindo a integração contínua e a entrega/deploy contínuo.
+
+
+## 📂 Estrutura do Projeto
+
+O projeto segue a estrutura padrão do Angular, com os principais arquivos localizados em `src/app`.
+
+```
+src/app/
+├── components/
+│   ├── blog/         # Exibe os últimos posts do blog
+│   ├── broering/     # Componente principal do cabeçalho
+│   ├── contatos/     # Lista de informações de contato
+│   ├── experiencia/  # Exibe a experiência profissional
+│   ├── projetos/     # Lista os projetos do portfólio
+│   └── sobre/        # Seção de apresentação
+└── services/
+    ├── blog.service.ts          # Serviço para consumir a API do Hashnode
+    ├── contatos.service.ts      # Fornece os dados de contato
+    ├── experiencia.service.ts   # Fornece os dados de experiência
+    └── projetos.service.ts      # Fornece os dados dos projetos
+```
+
+## 🔌Como Executar o Projeto
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/broeringvictor/broering.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd broering
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+### Executando o Projeto
+
+Execute o comando abaixo para iniciar o servidor de desenvolvimento:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Acesse `http://localhost:4200/` em seu navegador.
