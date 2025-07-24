@@ -39,6 +39,15 @@ export class ProjetosService {
         'Sistema moderno para gestão de processos judiciais confidenciais, desenvolvido em arquitetura de microsserviços com orquestração de containers via .NET Aspire.'
       ],
       tecnologias: ['.NET Aspire', 'ASP.NET Core', 'Angular', 'Redis', 'JWT']
+    },
+    {
+      imagemUrl: 'https://placehold.co/200x112/0f172a/94a3b8?text=Portfolio', // Placeholder
+      nome: 'Portfólio pessoal',
+      link: 'https://github.com/broeringvictor/portfolio',
+      descricao: [
+        'Portfólio pessoal, desenvolvido com Angular e Tailwind CSS. O projeto apresenta as minhas informações profissionais, experiências, projetos e um blog integrado com a API do Hashnode.'
+      ],
+      tecnologias: ['Angular', 'CI/CD', 'Tailwind', 'Jasmine', 'Karma', 'GitHub Actions']
     }
   ];
 
