@@ -20,4 +20,10 @@ describe('Experiencia', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have experiencias defined with at least one item', () => {
+    expect(component.experiencias.length).toBeGreaterThan(0);
+    expect(component.experiencias[0].cargo).toBeDefined();
+    expect(component.experiencias[0].empresa).toBeDefined();
+  });
 });

@@ -20,4 +20,10 @@ describe('Projetos', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have projetos defined with at least one item', () => {
+    expect(component.projetos.length).toBeGreaterThan(0);
+    expect(component.projetos[0].nome).toBeDefined();
+    expect(component.projetos[0].tecnologias.length).toBeGreaterThan(0);
+  });
 });
