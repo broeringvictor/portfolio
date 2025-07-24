@@ -38,13 +38,10 @@ describe('Blog', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should initialize posts$ with blog posts on ngOnInit', (done) => {
+  it('should initialize posts signal with blog posts on ngOnInit', () => {
     component.ngOnInit();
-    component.posts$.subscribe(posts => {
-      expect(posts.length).toBe(1);
-      expect(posts[0].title).toBe('Test');
-      done();
-    });
+    expect(component.posts().length).toBe(1);
+    expect(component.posts()[0].title).toBe('Test');
     expect(blogServiceSpy.getLatestPosts).toHaveBeenCalled();
   });
 });

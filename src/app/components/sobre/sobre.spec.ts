@@ -17,7 +17,6 @@ describe('Sobre', () => {
     fixture.detectChanges();
   });
 
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });

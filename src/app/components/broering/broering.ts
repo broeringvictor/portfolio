@@ -4,13 +4,13 @@ import { Contatos } from "../contatos/contatos";
 
 @Component({
   selector: 'app-broering',
-  standalone: true, // É importante definir como standalone
+  standalone: true,
   imports: [CommonModule, Contatos],
   templateUrl: './broering.html',
   styleUrl: './broering.css',
 
   host: {
-    class: 'flex flex-col justify-between h-full' 
+    class: 'flex flex-col justify-between h-full'
   }
 })
 export class Broering {
