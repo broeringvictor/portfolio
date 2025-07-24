@@ -13,7 +13,7 @@ O site é SPA estática, projetada para ser rápida e resposível, possíbilitan
 - **[Hashnode API](https://hashnode.com/api):** Utilizada para buscar e exibir os posts mais recentes do meu blog diretamente no portfólio.
 - **[Karma](https://karma-runner.github.io/):** É o executor de testes que abre um navegador e executa os testes de forma automatizada.
 - **[Jasmine](https://jasmine.github.io/):** É o framework de testes utilizado para testes unitários.
-- **[GitHub Actions](https://docs.github.com/en/actions):** Utilizado para automação de CI/CD, garantindo a integração contínua e a entrega/deploy contínuo.
+- **[GitHub Actions](https://docs.github.com/en/actions):** CI/CD, garantindo a integração contínua e a entrega/deploy contínuo.
 
 
 ## 📂 Estrutura do Projeto
