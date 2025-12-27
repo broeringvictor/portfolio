@@ -28,7 +28,6 @@ src/app/
 │   ├── contatos/     # Lista de informações de contato
 │   ├── experiencia/  # Exibe a experiência profissional
 │   ├── projetos/     # Lista os projetos do portfólio
-│   └── sobre/        # Seção de apresentação
 └── services/
     ├── blog.service.ts          # Serviço para consumir a API do Hashnode
     ├── contatos.service.ts      # Fornece os dados de contato
