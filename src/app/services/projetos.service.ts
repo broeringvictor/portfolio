@@ -14,6 +14,18 @@ export interface Projeto {
 export class ProjetosService {
   private readonly projetos: Projeto[] = [
     {
+      imagemUrl: 'https://placehold.co/200x112/0f172a/94a3b8?text=FastAPI',
+      nome: 'FastAPI Backend Template',
+      link: 'https://github.com/broeringvictor/fastapi',
+      descricao: [
+        'Estudo e modelo reutilizável de backend utilizando FastAPI, focado em arquitetura, Clean Code e padrões de projeto em Python.',
+        'Comparação direta com tecnologias .NET para compreensão de assincronismo e ORMs (SQLAlchemy vs Entity Framework).',
+        'Implementação de autenticação JWT segura (HttpOnly, CSRF), arquitetura modular e Value Objects.',
+        'Suíte completa de testes com Pytest, Factory Boy e Freezegun, utilizando uv para gerenciamento de dependências.'
+      ],
+      tecnologias: ['Python', 'FastAPI', 'SQLAlchemy', 'JWT', 'Pytest', 'PostgreSQL', 'Clean Code']
+    },
+    {
       imagemUrl: 'https://placehold.co/200x112/0f172a/94a3b8?text=Bot', // Placeholder
       nome: 'PxG Auto Revive Bot',
       link: 'https://github.com/broeringvictor/auto-revive-bot',
