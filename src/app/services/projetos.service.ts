@@ -30,16 +30,16 @@ export class ProjetosService {
       nome: 'PxG Auto Revive Bot',
       link: 'https://github.com/broeringvictor/auto-revive-bot',
       descricao: [
-        'Ferramenta de automação para Windows desenvolvida como um estudo sobre a API do Windows (P/Invoke), hooks globais de teclado/mouse e visão computacional com OpenCV.'
+        'Combinei a API do Windows(user32.dll) e visão computacional (OpenCVSharp) para criar uma automação inteligente.'
       ],
-      tecnologias: ['C#', 'WinForms', 'OpenCV', 'P/Invoke']
+      tecnologias: ['C#', '.NET', 'Windows Forms', 'P/Invoke', 'OpenCVSharp']
     },
     {
       imagemUrl: 'https://placehold.co/200x112/0f172a/94a3b8?text=Calculadora', // Placeholder
-      nome: 'Calculadora de Validação de Testes A/B',
+      nome: 'Validador Estatístico de Testes A/B',
       link: 'https://github.com/broeringvictor/ab_test_calculator',
       descricao: [
-        'Aplicação web interativa que simplifica a análise de significância estatística em testes A/B, tornando o processo acessível para equipes de Produto, CRO e Marketing.'
+        'Arquitetei e construí uma ferramenta de análise estatística para testes A/B que abstrai a complexidade de métricas para usuários não-técnicos. Estando hoje na rotina de uma equipe de marketing em uma empresa com mais de 200 funcionários.'
       ],
       tecnologias: ['Python', 'Streamlit', 'Pandas', 'Heroku', 'GitHub Actions']
     },
@@ -48,9 +48,9 @@ export class ProjetosService {
       nome: 'Sistema de Gestão Processual Jurídica',
       link: 'https://github.com/broeringvictor/gubernare-public',
       descricao: [
-        'Sistema moderno para gestão de processos judiciais confidenciais, desenvolvido em arquitetura de microsserviços com orquestração de containers via .NET Aspire.'
+        'Prototipei a conversão de uma aplicação interna para uma arquitetura de microsserviços open-source, orquestrada com .NET Aspire com Docker, com um sistema de segurança com JWT, hash com salt (PBKDF2) e criptografia AES-256.'
       ],
-      tecnologias: ['.NET Aspire', 'ASP.NET Core', 'Angular', 'Redis', 'JWT']
+      tecnologias: ['.NET Aspire', 'ASP.NET Core', 'Angular', 'Python', 'Docker', 'Redis', 'JWT']
     },
     {
       imagemUrl: 'https://placehold.co/200x112/0f172a/94a3b8?text=Portfolio', // Placeholder
